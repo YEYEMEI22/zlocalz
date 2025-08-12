@@ -1,0 +1,8 @@
+"key","es","description"
+"welcome","¡Bienvenido a ZLocalz!","Welcome message"
+"greeting","¡Hola, {name}!","Greeting with name"
+"itemCount","{count, plural, =0{No items} =1{One item} other{{count} elementos}}","Item count"
+"loginButton","Iniciar Sesión","Login button text"
+"settings","TODO","Settings page title"
+"logout","TODO","Logout button"
+"profile","Perfil","User profile"

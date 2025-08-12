@@ -1,0 +1,88 @@
+{
+  "name": "zlocalz",
+  "version": "1.0.7",
+  "description": "ZLocalz - TUI Locale Guardian for Flutter ARB l10n/i18n validation and translation with AI-powered fixes",
+  "main": "dist/cli.js",
+  "bin": {
+    "zlocalz": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx watch src/cli.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "flutter",
+    "arb",
+    "localization",
+    "i18n",
+    "l10n",
+    "tui",
+    "cli",
+    "translation",
+    "validation",
+    "ai",
+    "gemini",
+    "locale",
+    "guardian"
+  ],
+  "author": "ZLocalz Team",
+  "homepage": "https://github.com/bllfoad/zlocalz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bllfoad/zlocalz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bllfoad/zlocalz/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "@messageformat/core": "^3.3.0",
+    "@messageformat/parser": "^5.1.0",
+    "@types/react": "^19.1.9",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "csv-parse": "^5.5.2",
+    "csv-stringify": "^6.4.4",
+    "diff": "^5.2.0",
+    "fast-glob": "^3.3.2",
+    "fuzzy": "^0.1.3",
+    "ink": "^6.1.0",
+    "inquirer": "^9.2.12",
+    "lodash": "^4.17.21",
+    "ora": "^8.0.1",
+    "p-limit": "^5.0.0",
+    "react": "^19.1.1",
+    "simple-git": "^3.22.0",
+    "update-notifier": "^7.0.0",
+    "yaml": "^2.3.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/diff": "^5.0.9",
+    "@types/inquirer": "^9.0.7",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.16",
+    "@types/update-notifier": "^6.0.8",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
+}

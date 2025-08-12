@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "sourceLocale": "en",
+    "targetLocales": [
+      "es"
+    ],
+    "filesScanned": 2,
+    "issues": {
+      "missing": 0,
+      "extra": 0,
+      "duplicate": 0,
+      "icuError": 0,
+      "placeholderMismatch": 0,
+      "formatting": 0
+    },
+    "autoFixed": false,
+    "translatedWithGemini": false,
+    "notes": [
+      "Glossary applied",
+      "Mirror source order"
+    ]
+  },
+  "perLocale": {
+    "es": {
+      "missingKeys": [],
+      "extraKeys": [],
+      "duplicates": [],
+      "placeholderMismatches": [],
+      "icuIssues": [],
+      "formattingWarnings": []
+    }
+  },
+  "proposedFixes": [],
+  "translations": [],
+  "patches": [],
+  "finalFiles": [
+    {
+      "path": "C:/Users/kllfo/Desktop/WORK/localz.dev/localz/example/lib/l10n/app_es.arb",
+      "contents": "{\n  \"@@locale\": \"es\",\n  \"greeting\": \"¡Hola, {name}!\",\n  \"itemCount\": \"{count, plural, =0{No items} =1{One item} other{{count} elementos}}\",\n  \"loginButton\": \"Iniciar Sesión\",\n  \"settings\": \"TODO\",\n  \"@settings\": {\n    \"description\": \"Settings page title\"\n  },\n  \"welcome\": \"¡Bienvenido a ZLocalz!\"\n}"
+    }
+  ]
+}

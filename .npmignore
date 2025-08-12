@@ -1,0 +1,51 @@
+# Source files
+src/
+tsconfig.json
+.eslintrc.json
+
+# Development files
+example/
+*.test.js
+*.test.ts
+.nyc_output/
+coverage/
+
+# Build artifacts
+.cache/
+temp/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Package managers
+.pnpm-debug.log*
+.yarn-integrity
+
+# Optional npm cache directory
+.npm
+
+# ESLint cache
+.eslintcache
+
+# Documentation (development only)
+PUBLISHING.md
+.claude
+INSTALL.md

@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome to ZLocalz!",
+  "greeting": "Hello, {name}!",
+  "itemCount": "{count, plural, =0{No items} =1{One item} other{{count} items}}",
+  "loginButton": "Sign In",
+  "settings": "Settings",
+  "logout": "Sign Out"
+}

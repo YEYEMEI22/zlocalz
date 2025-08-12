@@ -1,0 +1,13 @@
+{
+  "flutterLocalesPath": "lib/l10n/",
+  "sourceLocale": "en",
+  "targetLocales": ["es"],
+  "doAutoFix": true,
+  "translateMissing": false,
+  "preferOrder": "mirror-source",
+  "styleGuidelines": "Concise UI text, sentence case, no trailing punctuation in buttons",
+  "domainGlossary": {
+    "ZLocalz": "ZLocalz"
+  },
+  "doNotTranslate": ["ZLocalz"]
+}

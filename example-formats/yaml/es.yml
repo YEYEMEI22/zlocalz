@@ -1,0 +1,11 @@
+welcome:
+  value: ¡Bienvenido a ZLocalz!
+  description: Mensaje de bienvenida para nuevos usuarios
+greeting:
+  value: ¡Hola, {name}!
+  description: Saludo con nombre de usuario
+itemCount:
+  value: "{count, plural, =0{No items} =1{One item} other{{count} elementos}}"
+  description: Contador con pluralización
+loginButton: Iniciar Sesión
+settings: TODO

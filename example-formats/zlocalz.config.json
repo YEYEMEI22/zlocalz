@@ -1,0 +1,17 @@
+{
+  "flutterLocalesPath": ".",
+  "sourceLocale": "en",
+  "targetLocales": ["es"],
+  "fileFormat": "auto",
+  "doAutoFix": true,
+  "translateMissing": false,
+  "preferOrder": "mirror-source",
+  "csvOptions": {
+    "delimiter": ",",
+    "keyColumn": "key",
+    "valueColumns": {
+      "en": "en",
+      "es": "es"
+    }
+  }
+}

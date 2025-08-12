@@ -1,0 +1,20 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+coverage/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+temp/
+tmp/
+
+# Documentation (development only)
+PUBLISHING.md
+.claude
+INSTALL.md
